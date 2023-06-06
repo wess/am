@@ -1,8 +1,12 @@
 {
-  "name": "am",
-  "version": "0.0.1",
-  "main": "index.js",
+  "name": "appwrite-models",
+  "version": "0.0.2",
   "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
   "devDependencies": {
     "@types/node": "^20.2.4",
     "appwrite": "^11.0.0",
